@@ -48,6 +48,20 @@
 *.srt linguist-detectable=true
 *.srt linguist-documentation=false
 *.srt linguist-language=SubRip-Text
+# C Source file
+*.c linguist-detectable=true
+*.c linguist-documentation=false
+*.c linguist-language=C
+*.h linguist-detectable=true
+*.h linguist-documentation=false
+*.h linguist-language=C
+# SystemVerilog Source file
+*.sv linguist-detectable=true
+*.sv linguist-documentation=false
+*.sv linguist-language=SystemVerilog
+*.svh linguist-detectable=true
+*.svh linguist-documentation=false
+*.svh linguist-language=SystemVerilog
 # YAML (YAML Ain't Markup Language) document
 # Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.yml linguist-detectable=false
@@ -164,7 +178,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Thursday, September 8th at 4:16 pm PST)
+# Line count (including blank lines and compiler line): 185
 # End of script
